@@ -2,3 +2,4 @@ lunar_python==1.4.8
 Jinja2==3.1.6
 tzdata==2026.3
 pytest==9.1.1
+pyinstaller==6.22.3

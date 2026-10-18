@@ -19,8 +19,17 @@ from webapp import api  # noqa: E402
 
 HOST = "127.0.0.1"
 DEFAULT_PORT = 8770
-STATIC = Path(__file__).resolve().parent / "static"
-TEMPLATES = Path(__file__).resolve().parent / "templates"
+
+
+def _resource_dir(name: str) -> Path:
+    """源码运行时取仓库目录；打包成 exe 后取 PyInstaller 的解包目录。"""
+    if hasattr(sys, "_MEIPASS"):
+        return Path(sys._MEIPASS) / "webapp" / name
+    return Path(__file__).resolve().parent / name
+
+
+STATIC = _resource_dir("static")
+TEMPLATES = _resource_dir("templates")
 MIME = {
     ".html": "text/html; charset=utf-8",
     ".css": "text/css; charset=utf-8",

@@ -4,12 +4,22 @@ from __future__ import annotations
 
 import json
 import sqlite3
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
-DB_PATH = ROOT / "storage" / "qinshu.db"
+
+
+def _db_path() -> Path:
+    """打包成 exe 后，课例库放在 exe 旁边，而不是临时解包目录。"""
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).resolve().parent / "storage" / "qinshu.db"
+    return ROOT / "storage" / "qinshu.db"
+
+
+DB_PATH = _db_path()
 SCHEMA_PATH = Path(__file__).resolve().parent / "schema.sql"
 
 

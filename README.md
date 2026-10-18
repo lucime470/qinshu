@@ -22,7 +22,13 @@
 
 最下面是占类对照和课例。22 类占法，先列用神，再列命中的条件和原文，两书有出入的地方会单独标出。判断和备注可以存成本地课例，之后按关键词、占类或日期范围找回来。
 
-## 跑起来
+## 只想用，不想装环境
+
+去 [Releases](https://github.com/lucime470/qinshu/releases/latest) 下载 `qinshu.exe`，双击就能用，不需要 Python，也不需要装任何依赖。
+
+exe 第一次运行时会在自己旁边建一个 `storage` 文件夹放课例，所以别把它丢在只读目录里。窗口里的地址就是页面地址，关窗口即可退出。
+
+## 从源码跑
 
 需要 Windows 10／11，Python 3.10 以上。开发时用的是 3.14。
 
@@ -36,7 +42,15 @@ python -m venv .venv
 
 默认开在 `http://127.0.0.1:8770/`。这个端口被占用时会自动往后找，具体地址以终端打印的为准。
 
-依赖只有 `lunar_python`、`Jinja2`、`tzdata` 和 `pytest`。`tzdata` 别漏装：Windows 上没有它，`ZoneInfo("Asia/Shanghai")` 会直接抛 `ZoneInfoNotFoundError`，服务起不来。
+运行只要 `lunar_python`、`Jinja2`、`tzdata` 和 `pytest`。`tzdata` 别漏装：Windows 上没有它，`ZoneInfo("Asia/Shanghai")` 会直接抛 `ZoneInfoNotFoundError`，服务起不来。`requirements.txt` 里还写了 `pyinstaller`，那个只在重新打包 exe 时用得上。
+
+想自己重新打包：
+
+```powershell
+.\.venv\Scripts\python.exe build\build_exe.py
+```
+
+生成的 `dist\qinshu.exe` 就是单文件版本，模板、静态资源和规则表都打在里面。
 
 ## 起课口径
 
@@ -60,6 +74,7 @@ python -m venv .venv
 qinshu/
 ├─ app.py         启动入口
 ├─ start.bat      双击启动：建环境、装依赖、开浏览器
+├─ build/         PyInstaller 打包配置（生成单文件 exe）
 ├─ core/          历法、七元、时禽、气将、翻禽、倒将、活曜、关系、占类
 ├─ data/
 │  ├─ rules/      规则表

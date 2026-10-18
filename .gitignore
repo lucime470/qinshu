@@ -6,3 +6,6 @@ logs/
 .pytest_cache/
 .tmp-crops/
 *.bak
+/build/qinshu/
+/dist/
+*.spec.bak
