@@ -1,0 +1,1058 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "code": "marriage",
+      "name": "婚姻",
+      "roles_y": [
+        {
+          "role": "男",
+          "bird": "番禽",
+          "note": "凭空占婚：天禽为男"
+        },
+        {
+          "role": "女",
+          "bird": "时禽",
+          "note": "凭空占婚：地禽为女"
+        },
+        {
+          "role": "媒人",
+          "bird": "日禽",
+          "note": "日禽为媒人"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "男家",
+          "bird": "番禽"
+        },
+        {
+          "role": "女家",
+          "bird": "到将"
+        },
+        {
+          "role": "媒人",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "marriage-role-map",
+      "source_page": "65（印刷57）；禽星易见·占婚姻",
+      "original_y": "凡凭空占婚，俱以天禽，即番禽为男，以其动属阳也，地禽，即时禽为女，以其动属阴也。若男家问婚，则以时禽为男，番禽为女；若女家问婚，则以番禽为男，时禽为女；日禽则为媒人，此乃不易之法。若我禽克祂禽，或祂禽克我禽，则婚不成，成亦终不偕和；若祂禽生我禽，则婚易成，亦主偕老；若我禽生祂禽，则婚亦难成；若我禽、祂禽比和，则婚易成；若日禽克我禽，或我禽克日禽，则媒人不得力；若日禽得地且生我禽，则媒人得力，婚事易成；若我禽、祂禽与日禽共临三合之位，则婚亦易成。",
+      "original_q": "凡占婚姻，以番禽为男家，到将为女家，日禽为媒人。如我克他，或他克我，婚则不成，成亦终不偕和。如他禽生我，则婚易成，亦主偕老。若我禽生他，婚亦难成。若彼我之禽比和，亦成。如日禽克我，或我禽克日，则主媒人不得力。若日禽得地生我者，则媒人得力，亲事易成。若彼我之禽与日时之禽共临三合之位，婚亦易成。",
+      "conditions": [
+        {
+          "id": "partner_sheng_self",
+          "text": "他禽生我禽",
+          "meaning": "婚易成，主偕老"
+        },
+        {
+          "id": "partner_ke_self",
+          "text": "他禽克我禽或我禽克他禽",
+          "meaning": "婚不成，成亦不偕和"
+        },
+        {
+          "id": "self_ke_partner",
+          "text": "我禽克他禽",
+          "meaning": "婚不成，成亦不偕和"
+        },
+        {
+          "id": "bihe",
+          "text": "我禽与他禽比和",
+          "meaning": "婚易成"
+        },
+        {
+          "id": "day_ke_self",
+          "text": "日禽克我禽",
+          "meaning": "媒人不得力"
+        },
+        {
+          "id": "day_sheng_self",
+          "text": "日禽生我禽",
+          "meaning": "媒人得力，婚事易成"
+        },
+        {
+          "id": "sanhe",
+          "text": "我禽、他禽与日禽共临三合",
+          "meaning": "婚亦易成"
+        }
+      ]
+    },
+    {
+      "code": "birth",
+      "name": "孕产",
+      "roles_y": [
+        {
+          "role": "母",
+          "bird": "时禽"
+        },
+        {
+          "role": "子",
+          "bird": "番禽"
+        },
+        {
+          "role": "医药/病",
+          "bird": "日禽",
+          "note": "本类主看时禽、番禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "母",
+          "bird": "我禽"
+        },
+        {
+          "role": "子",
+          "bird": "他禽"
+        }
+      ],
+      "conflict_group": "birth-role-map",
+      "source_page": "66（印刷58）；禽星易见·占生产",
+      "original_y": "阳禽泊阳宫生男，阴禽泊阴宫生女。亢、牛、壁、虚、危、室、奎、娄、张、毕、星、觜，属阳；角、氐、鬼、柳、参、危、女、斗、心、房、井、箕，属阴。阳禽泊阴宫亦生男，阴禽泊阳宫亦生女。",
+      "original_q": "凡占生产，皆以我禽为母，他禽为子，母克子易生，子克母难生。日禽克他禽亦易生。若我禽得地，他禽不得地，则母安子危。他禽得地，我禽不得地，子安母危。如日禽弱，又不得地，来克我禽者，主母有病。若时禽克日禽，主快。又云：阳禽泊阳宫生男，阴禽泊阴宫生女。亢、牛、壁、虚、危、室、奎、娄、张、毕、星、觜属阳，角、氐、鬼、柳、参、危、女、斗、心、房、井、箕属阴。阳禽泊阴宫亦生男，阴禽泊阳宫亦生女。",
+      "conditions": [
+        {
+          "id": "mother_ke_child",
+          "text": "我禽克他禽",
+          "meaning": "母克子易生"
+        },
+        {
+          "id": "child_ke_mother",
+          "text": "他禽克我禽",
+          "meaning": "子克母难生"
+        },
+        {
+          "id": "yang_yang",
+          "text": "阳禽泊阳宫",
+          "meaning": "生男"
+        },
+        {
+          "id": "yin_yin",
+          "text": "阴禽泊阴宫",
+          "meaning": "生女"
+        }
+      ]
+    },
+    {
+      "code": "wealth",
+      "name": "求财",
+      "roles_y": [
+        {
+          "role": "求财人",
+          "bird": "番禽"
+        },
+        {
+          "role": "出财人",
+          "bird": "倒将"
+        },
+        {
+          "role": "财/牙保",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "求财人",
+          "bird": "番禽"
+        },
+        {
+          "role": "出财人",
+          "bird": "到将"
+        },
+        {
+          "role": "财/牙保",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "wealth-role-map",
+      "source_page": "66（印刷58）；禽星易见·占求财",
+      "original_y": "是以将本求财，时禽偏宜旺相；空拳问利，番禽最要兴隆。凡将本求利与空拳求财不同。若空手求财，只要番禽旺相克时禽为佳，然亦要相合，不可受其制伏吞啖，吞啖则必因财而受祸。",
+      "original_q": "凡占求财，以番禽为求财之人，到将为出财之人，日禽为财并牙保之人，三禽和禽不相克制者，其财易求，而谋事亦遂。若日禽与他禽克我，为财克我，难求。如我禽克他，半吉。若日禽克他禽，必为中间人阻当，难成。",
+      "conditions": [
+        {
+          "id": "open_hand",
+          "text": "空手求财，番禽旺相克时禽",
+          "meaning": "为佳，但不可受制伏吞啖"
+        },
+        {
+          "id": "three_harmony",
+          "text": "日禽、时禽、番禽三家和合",
+          "meaning": "财易求，谋事亦遂"
+        },
+        {
+          "id": "day_ke_other",
+          "text": "日禽克他禽",
+          "meaning": "中间人阻挡，难成"
+        }
+      ]
+    },
+    {
+      "code": "illness",
+      "name": "疾病",
+      "roles_y": [
+        {
+          "role": "病人",
+          "bird": "时禽"
+        },
+        {
+          "role": "病症",
+          "bird": "番禽"
+        },
+        {
+          "role": "医药",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "病人",
+          "bird": "番禽"
+        },
+        {
+          "role": "病症",
+          "bird": "到将"
+        },
+        {
+          "role": "医人",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "illness-role-map",
+      "source_page": "65（印刷57）；禽星易见·占患病",
+      "original_y": "以时禽为病人，番禽为病症，日禽为医药。时禽克番禽好，日禽克番禽亦然；番禽克时禽，病难愈；番禽克日禽，医药作用力小；日禽生时禽，医药作用力大；日禽生番禽，医药起到了反作用，反而加重了病情；克时禽的禽星为飞煞，主生灾殃。",
+      "original_q": "凡占患病，以番禽为病人，到将为病症，日禽为医人。病人克症，则不药自愈，病人克日亦愈。若病症克人，难愈。日禽克症，宜服药，日禽克人，医作难。如我禽不得地，加他禽克制者，死。若他禽不得地，虽凶亦无妨，但要我禽得地者，其病易好。",
+      "conditions": [
+        {
+          "id": "patient_ke_disease",
+          "text": "时禽克番禽",
+          "meaning": "好；日禽克番禽亦然"
+        },
+        {
+          "id": "disease_ke_patient",
+          "text": "番禽克时禽",
+          "meaning": "病难愈"
+        },
+        {
+          "id": "day_sheng_patient",
+          "text": "日禽生时禽",
+          "meaning": "医药作用力大"
+        },
+        {
+          "id": "killer_of_hour",
+          "text": "克时禽的禽星",
+          "meaning": "飞煞，主生灾殃"
+        }
+      ]
+    },
+    {
+      "code": "wind_rain",
+      "name": "天时晴雨",
+      "roles_y": [
+        {
+          "role": "天禽",
+          "bird": "番禽"
+        },
+        {
+          "role": "地禽",
+          "bird": "时禽"
+        }
+      ],
+      "roles_q": [],
+      "conflict_group": "weather-role-map",
+      "source_page": "62–63（印刷54–55）；禽星易见·占天晴雨",
+      "original_y": "乾坤，天地也；时禽为体禽为地禽，番禽为用禽为天禽。天禽克地禽，即番禽克时禽，主晴；比和则时晴时雨，即阵雨。又曰：皆火主晴，皆土主云，皆木主风，皆水主雨，皆金主冷及主雷；太阳与火宿主晴，只有虚日鼠主雨，太阴与水宿主雨，只有张月鹿主晴。",
+      "original_q": "凡占天时晴雨，皆以日辰与日宿所属五行而断。如日辰属水，其宿属火，是日辰克日宿，则主阴无雨。如日辰属火，日宿属水，是日宿克日辰，其日主晴。如日辰生日宿，主阴晦。若日辰与日宿比和，皆火则晴，皆金作雨，皆水即雨，皆土则阴，皆木则风也。",
+      "conditions": [
+        {
+          "id": "fan_ke_hour",
+          "text": "番禽克时禽",
+          "meaning": "主晴"
+        },
+        {
+          "id": "bihe_weather",
+          "text": "番禽与时禽比和",
+          "meaning": "时晴时雨，阵雨"
+        },
+        {
+          "id": "all_fire",
+          "text": "皆火",
+          "meaning": "主晴"
+        },
+        {
+          "id": "all_water",
+          "text": "皆水",
+          "meaning": "主雨"
+        },
+        {
+          "id": "all_wood",
+          "text": "皆木",
+          "meaning": "主风"
+        },
+        {
+          "id": "all_earth",
+          "text": "皆土",
+          "meaning": "主云"
+        }
+      ]
+    },
+    {
+      "code": "home",
+      "name": "家宅",
+      "roles_y": [
+        {
+          "role": "自己",
+          "bird": "时禽"
+        },
+        {
+          "role": "邻舍",
+          "bird": "活曜"
+        }
+      ],
+      "roles_q": [],
+      "conflict_group": "home-role-map",
+      "source_page": "65（印刷57）",
+      "original_y": "凡家宅屋宇，以活曜为邻舍。若活曜生时禽，主邻舍好，若活曜克食时禽，主不好。若时禽克活曜，邻舍贫窘，受吾使挥。若时禽生活曜，必与邻人通好，而费家财。",
+      "original_q": "",
+      "conditions": [
+        {
+          "id": "huoyao_sheng_hour",
+          "text": "活曜生时禽",
+          "meaning": "邻舍好"
+        },
+        {
+          "id": "huoyao_ke_hour",
+          "text": "活曜克时禽",
+          "meaning": "邻舍不好"
+        },
+        {
+          "id": "hour_ke_huoyao",
+          "text": "时禽克活曜",
+          "meaning": "邻舍贫窘"
+        },
+        {
+          "id": "hour_sheng_huoyao",
+          "text": "时禽生活曜",
+          "meaning": "与邻人通好，费家财"
+        }
+      ]
+    },
+    {
+      "code": "medicine",
+      "name": "求医问药",
+      "roles_y": [
+        {
+          "role": "病人",
+          "bird": "时禽"
+        },
+        {
+          "role": "病症",
+          "bird": "番禽"
+        },
+        {
+          "role": "医药",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "病人",
+          "bird": "番禽"
+        },
+        {
+          "role": "病症",
+          "bird": "到将"
+        },
+        {
+          "role": "医人",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "illness-role-map",
+      "source_page": "65（印刷57）；禽星易见·占患病",
+      "original_y": "以时禽为病人，番禽为病症，日禽为医药。时禽克番禽好，日禽克番禽亦然；番禽克时禽，病难愈；番禽克日禽，医药作用力小；日禽生时禽，医药作用力大；日禽生番禽，医药起到了反作用，反而加重了病情；克时禽的禽星为飞煞，主生灾殃。",
+      "original_q": "凡占患病，以番禽为病人，到将为病症，日禽为医人。",
+      "conditions": [
+        {
+          "id": "patient_ke_disease",
+          "text": "时禽克番禽",
+          "meaning": "好"
+        },
+        {
+          "id": "day_ke_disease",
+          "text": "日禽克番禽",
+          "meaning": "亦然"
+        },
+        {
+          "id": "disease_ke_patient",
+          "text": "番禽克时禽",
+          "meaning": "病难愈"
+        },
+        {
+          "id": "day_sheng_patient",
+          "text": "日禽生时禽",
+          "meaning": "医药作用力大"
+        }
+      ]
+    },
+    {
+      "code": "exam",
+      "name": "求官赴举",
+      "roles_y": [
+        {
+          "role": "场内文章",
+          "bird": "时禽"
+        },
+        {
+          "role": "承恩举子",
+          "bird": "进将"
+        },
+        {
+          "role": "权",
+          "bird": "气将"
+        }
+      ],
+      "roles_q": [],
+      "conflict_group": "exam-role-map",
+      "source_page": "66（印刷58）",
+      "original_y": "时禽主场内之文章，须宜得地。进将为承恩举子，不可无权。言时禽、气将，宜飞而得地，不宜伏而悖时。",
+      "original_q": "",
+      "conditions": [
+        {
+          "id": "hour_flying",
+          "text": "时禽飞而得地",
+          "meaning": "宜"
+        },
+        {
+          "id": "hour_hidden",
+          "text": "时禽伏而悖时",
+          "meaning": "不宜"
+        }
+      ]
+    },
+    {
+      "code": "trade",
+      "name": "交易",
+      "roles_y": [
+        {
+          "role": "自己",
+          "bird": "时禽"
+        },
+        {
+          "role": "对方",
+          "bird": "番禽"
+        },
+        {
+          "role": "中间",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "求财人",
+          "bird": "番禽"
+        },
+        {
+          "role": "出财人",
+          "bird": "到将"
+        },
+        {
+          "role": "财/牙保",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "trade-role-map",
+      "source_page": "66（印刷58）；禽星易见·占求财",
+      "original_y": "凡占交易，见番禽受克，则祂人不肯；时禽失令，则自己有失。最要时日番禽三家和合，则交易易成。凡时禽逢伏断，而日禽又克食时禽，主因交易而被人劫财陷害。",
+      "original_q": "凡占求财，以番禽为求财之人，到将为出财之人，日禽为财并牙保之人。",
+      "conditions": [
+        {
+          "id": "partner_ke",
+          "text": "番禽受克",
+          "meaning": "他方不肯"
+        },
+        {
+          "id": "hour_weak",
+          "text": "时禽失令",
+          "meaning": "自己有所失"
+        },
+        {
+          "id": "three_harmony",
+          "text": "时、日、番三家和合",
+          "meaning": "交易易成"
+        },
+        {
+          "id": "hour_fuduan",
+          "text": "时禽逢伏断且日禽克时禽",
+          "meaning": "因交易被劫财陷害"
+        }
+      ]
+    },
+    {
+      "code": "gambling",
+      "name": "博弈",
+      "roles_y": [
+        {
+          "role": "财物",
+          "bird": "番禽"
+        },
+        {
+          "role": "庄家",
+          "bird": "日禽"
+        },
+        {
+          "role": "自己",
+          "bird": "时禽"
+        }
+      ],
+      "roles_q": [],
+      "conflict_group": "gambling-role-map",
+      "source_page": "66（印刷58）",
+      "original_y": "战斗逞将军之勇，胜负关天。弈乃余情之好，得失有数。番禽为囊中财物，日禽为坐彩庄家。时禽为自己，宜高强，更要得时得地。",
+      "original_q": "",
+      "conditions": [
+        {
+          "id": "hour_strong",
+          "text": "时禽高强、得时得地",
+          "meaning": "宜"
+        }
+      ]
+    },
+    {
+      "code": "lost",
+      "name": "失物",
+      "roles_y": [
+        {
+          "role": "所失之物",
+          "bird": "番禽"
+        },
+        {
+          "role": "失物之主",
+          "bird": "时禽"
+        },
+        {
+          "role": "藏处",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "失物之主",
+          "bird": "我禽"
+        },
+        {
+          "role": "所失之物",
+          "bird": "他禽"
+        },
+        {
+          "role": "藏处",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "lost-role-map",
+      "source_page": "66（印刷58）；禽星易见·占失物",
+      "original_y": "凡占失物，以番禽为所失之物，时禽为失物之主。若番禽逢生旺之宫，虽失去必在，不须烦恼；若番禽逢衰死之宫，失物必难寻。日禽为失物所藏之处。若日禽生番禽，失物易寻易见，如是生物，则主自回。若时禽克番禽，急寻必见，迟则难矣。若日禽克番禽，则失物被藏得很深，仍以锁泊定其所藏之方位，逢山在山，逢水在水，若逢汤火、刀砧，则失物已被烹宰。",
+      "original_q": "凡占失物，以我禽为失物之主，他禽为所失之物并所得之人，日禽为所失所藏之处。若他禽来生我禽者，其物易寻易见；如是生物，则主自回。如我禽克他禽者，急寻必见，迟则难矣。若日禽克他禽者，其物被藏深处不出。仍以锁泊定其所藏之方，逢山在山，逢水在水，若逢汤火、刀砧，其物已被烹宰矣。",
+      "conditions": [
+        {
+          "id": "day_sheng_lost",
+          "text": "日禽生番禽",
+          "meaning": "易寻易见，生物自回"
+        },
+        {
+          "id": "hour_ke_lost",
+          "text": "时禽克番禽",
+          "meaning": "急寻必见，迟则难"
+        },
+        {
+          "id": "day_ke_lost",
+          "text": "日禽克番禽",
+          "meaning": "藏得很深，以锁泊定方位"
+        }
+      ]
+    },
+    {
+      "code": "meeting",
+      "name": "谒见会人",
+      "roles_y": [
+        {
+          "role": "我",
+          "bird": "番禽"
+        },
+        {
+          "role": "对方",
+          "bird": "倒将"
+        },
+        {
+          "role": "会面处",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "我",
+          "bird": "番禽"
+        },
+        {
+          "role": "他",
+          "bird": "到将"
+        },
+        {
+          "role": "会面处",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "meeting-role-map",
+      "source_page": "禽星易见·占谒见并会人",
+      "original_y": "",
+      "original_q": "凡占谒见会人，皆以番禽为我，到将为他，日禽为所会之处。如他禽与日禽旺而生我，谒见则喜；我如欲会人，其人自来。若番我禽克他禽者，为本身高，其人不来。如日时之禽生他禽者，其人欲来不来。如日时之禽不相克而逢伏断，其人在家不出；若直空亡、五不遇时者，其人不在家。泊山林，其人在州县。泊田园，其人在邻里。泊田野，其人在中途相遇；余仿此。",
+      "conditions": [
+        {
+          "id": "other_sheng_self",
+          "text": "他禽与日禽旺而生我",
+          "meaning": "谒见则喜"
+        },
+        {
+          "id": "self_ke_other",
+          "text": "我禽克他禽",
+          "meaning": "本身高，其人不来"
+        },
+        {
+          "id": "others_sheng_other",
+          "text": "日时之禽生他禽",
+          "meaning": "其人欲来不来"
+        }
+      ]
+    },
+    {
+      "code": "escape",
+      "name": "逃难",
+      "roles_y": [
+        {
+          "role": "逃难之人",
+          "bird": "番禽"
+        },
+        {
+          "role": "追捕之人",
+          "bird": "倒将"
+        },
+        {
+          "role": "逃难之处",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "逃难之人",
+          "bird": "番禽"
+        },
+        {
+          "role": "追捕之人",
+          "bird": "到将"
+        },
+        {
+          "role": "逃难之处",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "escape-role-map",
+      "source_page": "禽星易见·占逃难",
+      "original_y": "",
+      "original_q": "凡占逃难，以番禽为逃难之人，到将为追捕之人，日禽为逃难之处。须要日禽生旺，我禽落泊得地为好。若我禽克他禽者，莫妨。如他禽克我禽，必被所捕。若日禽克我禽，我禽生他禽者，则主逃难之处不稳，惟生我则吉。如日间逃难，要他人是夜禽；如夜间逃难，要他人是日禽，仍要出杜门，或地户，或华盖方，或九地、太阴、六丁下出，则人不见我，可以免难也。",
+      "conditions": [
+        {
+          "id": "self_ke_other",
+          "text": "我禽克他禽",
+          "meaning": "莫妨"
+        },
+        {
+          "id": "other_ke_self",
+          "text": "他禽克我禽",
+          "meaning": "必被所捕"
+        },
+        {
+          "id": "day_sheng_self",
+          "text": "日禽生我",
+          "meaning": "吉"
+        }
+      ]
+    },
+    {
+      "code": "catch",
+      "name": "捕捉逃亡",
+      "roles_y": [
+        {
+          "role": "捕逃之人",
+          "bird": "番禽"
+        },
+        {
+          "role": "逃亡之犯",
+          "bird": "倒将"
+        },
+        {
+          "role": "逃避之处",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "捕逃之人",
+          "bird": "番禽"
+        },
+        {
+          "role": "逃亡之犯",
+          "bird": "到将"
+        },
+        {
+          "role": "逃避之处",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "catch-role-map",
+      "source_page": "禽星易见·占捕捉逃亡人犯",
+      "original_y": "",
+      "original_q": "凡捕逃，以番禽为捕逃之人，到将为逃亡之犯，日禽为逃避之处。须要日禽与他禽生我，其人自必相遇。如我禽太高，克伏他禽者，彼必畏我，深躲不出。尤须择惊门而出，其人可获也。",
+      "conditions": [
+        {
+          "id": "day_other_sheng_self",
+          "text": "日禽与他禽生我",
+          "meaning": "必相遇"
+        },
+        {
+          "id": "self_too_high",
+          "text": "我禽太高，克伏他禽",
+          "meaning": "彼深躲不出"
+        }
+      ]
+    },
+    {
+      "code": "travel",
+      "name": "行人",
+      "roles_y": [
+        {
+          "role": "占者",
+          "bird": "时禽"
+        },
+        {
+          "role": "行人",
+          "bird": "番禽"
+        },
+        {
+          "role": "路/所往",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "占者",
+          "bird": "我禽"
+        },
+        {
+          "role": "行人",
+          "bird": "他禽"
+        },
+        {
+          "role": "路/所往",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "travel-role-map",
+      "source_page": "禽星易见·占行人",
+      "original_y": "",
+      "original_q": "凡占行人，以我禽为占者，以他禽为行人，日禽为路及行人所往之方。我克他，行人不至。他克我、生我，行人立至。日禽克他人，中途有阻。他人禽或在日禽之宫，或与日禽合者，行人未动。他人禽或在我之宫，人立至。他禽若克制日禽，中途无阻，行人不久到家。",
+      "conditions": [
+        {
+          "id": "self_ke_other",
+          "text": "我克他",
+          "meaning": "行人不至"
+        },
+        {
+          "id": "other_ke_self",
+          "text": "他克我或生我",
+          "meaning": "行人立至"
+        },
+        {
+          "id": "day_ke_other",
+          "text": "日禽克他",
+          "meaning": "中途有阻"
+        }
+      ]
+    },
+    {
+      "code": "lawsuit",
+      "name": "官讼",
+      "roles_y": [
+        {
+          "role": "问数之人",
+          "bird": "翻禽"
+        },
+        {
+          "role": "对首之人",
+          "bird": "倒将"
+        },
+        {
+          "role": "官吏",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "问数之人",
+          "bird": "我禽"
+        },
+        {
+          "role": "对首之人",
+          "bird": "他禽"
+        },
+        {
+          "role": "官吏",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "lawsuit-role-map",
+      "source_page": "禽星易见·占官讼",
+      "original_y": "",
+      "original_q": "凡占官讼，以我禽为问数之人，他禽为对首之人，日禽为官吏。无问我讼人，人讼我，俱要我禽高一等，方能降服上下。我禽克他禽，为我有理而讼胜。他禽克我禽，为彼有理，而我讼输。日禽生我禽，则官吏顺我，而彼有罪。日禽生他禽，则官吏顺彼，而我有罪。如彼之禽、我之禽俱受日克，则彼此皆罪。若彼我之禽俱克日，则彼我之词皆不准。三禽和合不相克者，中有好人和解，官事消散。三相克制或泊刑害之宫，则主官吏淹延不决。",
+      "conditions": [
+        {
+          "id": "self_ke_other",
+          "text": "我禽克他禽",
+          "meaning": "我有理而讼胜"
+        },
+        {
+          "id": "other_ke_self",
+          "text": "他禽克我禽",
+          "meaning": "彼有理而讼输"
+        },
+        {
+          "id": "day_sheng_self",
+          "text": "日禽生我禽",
+          "meaning": "官吏顺我"
+        },
+        {
+          "id": "three_harmony",
+          "text": "三禽和合不相克",
+          "meaning": "好人和解，官事消散"
+        }
+      ]
+    },
+    {
+      "code": "battle",
+      "name": "出战",
+      "roles_y": [
+        {
+          "role": "我",
+          "bird": "番禽"
+        },
+        {
+          "role": "彼",
+          "bird": "倒将"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "我",
+          "bird": "番禽"
+        },
+        {
+          "role": "彼",
+          "bird": "到将"
+        }
+      ],
+      "conflict_group": "battle-role-map",
+      "source_page": "禽星易见·占战",
+      "original_y": "",
+      "original_q": "凡选时出战，须要内刚外柔，我强彼弱，我禽得地者胜，他泊休囚刑害败。假如番禽我是尾火虎、箕水豹，到将他是娄金狗、室火猪，则我强彼弱，出则百战百胜，敌必授首而降，无所逃也。",
+      "conditions": [
+        {"id": "self_strong_de_di", "text": "我强彼弱，我禽得地", "meaning": "胜"},
+        {
+          "id": "other_weak",
+          "text": "他泊休囚刑害",
+          "meaning": "败"
+        }
+      ]
+    },
+    {
+      "code": "hunting",
+      "name": "渔猎",
+      "roles_y": [
+        {
+          "role": "渔猎之人",
+          "bird": "时禽"
+        },
+        {
+          "role": "所捕之物",
+          "bird": "番禽"
+        },
+        {
+          "role": "所捕之处/器",
+          "bird": "日禽"
+        }
+      ],
+      "roles_q": [
+        {
+          "role": "渔猎之人",
+          "bird": "我禽"
+        },
+        {
+          "role": "所捕之物",
+          "bird": "他禽"
+        },
+        {
+          "role": "所捕之处/器",
+          "bird": "日禽"
+        }
+      ],
+      "conflict_group": "hunting-role-map",
+      "source_page": "禽星易见·占渔猎",
+      "original_y": "",
+      "original_q": "凡占渔猎，皆以我禽为渔猎之人，他禽为所捕之物，日禽为所捕之处，及所捕应用之器。先以日时二家和会，次用他禽生我为好。如日禽克制他禽，自伏。若他禽克日禽张网装弯。若他禽与日禽和好，宜拗罾。我禽克他禽，宜打网。若使我禽太高，他禽受制，则为我克其物，终难获。",
+      "conditions": [
+        {
+          "id": "other_sheng_self",
+          "text": "他禽生我",
+          "meaning": "好"
+        },
+        {
+          "id": "self_ke_other",
+          "text": "我禽克他禽",
+          "meaning": "宜打网"
+        }
+      ]
+    },
+    {
+      "code": "food",
+      "name": "饮食宴会",
+      "roles_y": [
+        {
+          "role": "主人",
+          "bird": "日禽"
+        },
+        {
+          "role": "自己",
+          "bird": "时禽"
+        },
+        {
+          "role": "肴馔",
+          "bird": "番禽"
+        }
+      ],
+      "roles_q": [],
+      "conflict_group": "food-role-map",
+      "source_page": "67（印刷59）",
+      "original_y": "凡占饮食，以日禽为主人，时禽为自己赴宴之身。即看其相合不相合，若合则主人有饮食，不合必无饮食。又以番禽为肴馔，若番禽旺相，主肴品多，衰弱必肴稀薄不齐整。",
+      "original_q": "",
+      "conditions": [
+        {
+          "id": "he_host",
+          "text": "日禽与时禽相合",
+          "meaning": "主人有饮食"
+        },
+        {
+          "id": "no_he_host",
+          "text": "日禽与时禽不合",
+          "meaning": "无饮食"
+        },
+        {
+          "id": "fan_strong",
+          "text": "番禽旺相",
+          "meaning": "肴品多"
+        }
+      ]
+    },
+    {
+      "code": "harvest",
+      "name": "年岁丰欠",
+      "roles_y": [
+        {
+          "role": "田畴",
+          "bird": "土宿"
+        },
+        {
+          "role": "雨露",
+          "bird": "水宿"
+        },
+        {
+          "role": "禾苗",
+          "bird": "木宿"
+        },
+        {
+          "role": "五谷",
+          "bird": "金宿"
+        }
+      ],
+      "roles_q": [],
+      "conflict_group": "harvest-role-map",
+      "source_page": "67（印刷59）",
+      "original_y": "凡占五谷收成，先以土为田畴，若四课无土宿者，主田畴不广。水为雨露，若四课无水宿者，主雨露不备或田土干燥。若见四课无木者，主禾苗不茂；四课无金者，主五谷不实，有盛无收也。凡占田禾以土、金、木三者为主。",
+      "original_q": "",
+      "conditions": [
+        {
+          "id": "no_earth",
+          "text": "四课无土宿",
+          "meaning": "田畴不广"
+        },
+        {
+          "id": "no_water",
+          "text": "四课无水宿",
+          "meaning": "雨露不备"
+        },
+        {
+          "id": "no_wood",
+          "text": "四课无木宿",
+          "meaning": "禾苗不茂"
+        },
+        {
+          "id": "no_metal",
+          "text": "四课无金宿",
+          "meaning": "五谷不实"
+        }
+      ]
+    },
+    {
+      "code": "seize",
+      "name": "擒捕",
+      "roles_y": [
+        {"role": "捕者", "bird": "番禽"},
+        {"role": "被擒之人", "bird": "倒将"},
+        {"role": "擒捕之处", "bird": "日禽"}
+      ],
+      "roles_q": [
+        {"role": "我禽（捕者）", "bird": "番禽"},
+        {"role": "他禽（被擒）", "bird": "到将"}
+      ],
+      "conflict_group": "seize-role-map",
+      "source_page": "禽星易见·占擒捕",
+      "original_y": "",
+        "original_q": "凡占擒捕，须要我禽高，能吞啖擒制他禽为好。如我禽能制他禽，其人必获。他禽是房日兔，我禽是娄金狗，他虽克我，然我禽高，能吞啖降伏他人，必得其首也。",
+      "conditions": [
+        {"id": "self_ke_other", "text": "我禽克他禽", "meaning": "其人必获"},
+        {"id": "self_high_other_low", "text": "我禽得地、他禽不得地", "meaning": "我高彼低，利于擒获"}
+      ]
+    },
+    {
+      "code": "sound",
+      "name": "声息",
+      "roles_y": [
+        {"role": "我禽", "bird": "番禽"},
+        {"role": "来犯之贼", "bird": "倒将"},
+        {"role": "时禽", "bird": "时禽"},
+        {"role": "日禽", "bird": "日禽"}
+      ],
+      "roles_q": [
+        {"role": "我禽", "bird": "番禽"},
+        {"role": "他禽", "bird": "到将"},
+        {"role": "时禽", "bird": "时禽"},
+        {"role": "日禽", "bird": "日禽"}
+      ],
+      "conflict_group": "sound-role-map",
+      "source_page": "禽星易见·占声息",
+      "original_y": "",
+      "original_q": "凡军中闻报声息，即以所闻、所报之时占之。如到彼克我弱，彼又得地，旺而生克我者，又以其时起遁。如遁合「太白入荧惑」者，其贼必来。如番我禽旺而得地，又能吞啖擒制他禽，而又遁合「荧入太白格」者，其贼必自恐惧而逃遁矣。若时直伏断、截路空亡，更彼我之禽比和，或与同类，或他禽旺而低弱者，则主惊虚，其贼必是虚报者也。",
+      "conditions": [
+        {"id": "self_strong_de_di", "text": "我禽旺而得地，能制他禽", "meaning": "贼惧而遁"},
+        {"id": "other_ke_self", "text": "他禽克我", "meaning": "彼强我弱，来犯"},
+        {"id": "hour_fuduan_void", "text": "时直伏断", "meaning": "主惊虚，多为虚报"},
+        {"id": "birds_bihe", "text": "彼我之禽比和或同类", "meaning": "主惊虚，多为虚报"}
+      ]
+    }
+  ]
+}

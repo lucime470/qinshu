@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+storage/*.db
+logs/
+.pytest_cache/
+.tmp-crops/
+*.bak

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>禽枢 · 演禽起课器</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">禽枢 <span>演禽起课器</span></div>
+      <div class="spacer"></div>
+      <span class="hint">北京时间 · 子初 23:00 换日 · 节气定月</span>
+    </header>
+
+    <section class="panel input-panel">
+      <form id="chart-form">
+        <label>起课时间
+          <input id="datetime" type="datetime-local" step="60" required>
+        </label>
+        <label>经度（可选，仅真太阳时对照）
+          <input id="longitude" type="number" step="0.1" min="-180" max="180" placeholder="如 116.4">
+        </label>
+        <button class="btn primary" type="submit">起课</button>
+      </form>
+      <p id="status" class="status"></p>
+    </section>
+
+    <main class="layout">
+      <section class="panel chart-panel">
+        <div class="section-head">
+          <h2>盘面</h2>
+          <span id="lunar" class="hint"></span>
+        </div>
+        <div id="dial" class="dial-wrap"></div>
+        <div class="pillars" id="pillars"></div>
+        <div id="solar-variant" class="solar-variant"></div>
+      </section>
+
+      <aside class="panel detail-panel">
+        <h2>禽星详情</h2>
+        <div id="detail" class="detail-empty">点击圆盘中的禽星查看详情与出处。</div>
+      </aside>
+    </main>
+
+    <section class="cards" id="cards"></section>
+
+    <section class="panel suo-bo-panel">
+      <div class="section-head">
+        <h3>锁泊圆盘</h3>
+        <span class="hint">切换禽星查看该禽的外锁泊对应。</span>
+      </div>
+      <div class="suo-bo-tabs" id="suo-bo-tabs" role="tablist" aria-label="锁泊圆盘禽星"></div>
+      <div id="suo-bo-dial" class="suo-bo-wrap">
+        <div class="empty">先起课，再查看锁泊圆盘。</div>
+      </div>
+    </section>
+
+    <section class="panel relations-panel">
+      <div class="section-head">
+        <h3>生克关系</h3>
+      </div>
+      <div class="relations-body">
+        <div id="sheng-ke-diagram" class="sheng-ke-wrap">
+          <div class="empty">先起课，再查看生克关系。</div>
+        </div>
+        <div id="sanhe-box" class="relation-boxes"></div>
+      </div>
+    </section>
+
+    <section class="panel table-panel">
+      <div class="section-head">
+        <h3>盘面核对表</h3>
+      </div>
+      <div id="chart-table" class="table-wrap">
+        <div class="empty">先起课，再核对盘面事实。</div>
+      </div>
+    </section>
+
+    <section class="panel reading-panel">
+      <div class="section-head">
+        <h2>占类对照</h2>
+        <select id="category"><option value="">选择占类</option></select>
+        <select id="household">
+          <option value="unspecified">不分男女家</option>
+          <option value="male">男家问婚</option>
+          <option value="female">女家问婚</option>
+        </select>
+        <button class="btn" id="reading-btn" type="button">查看</button>
+      </div>
+      <div id="reading" class="reading-empty"></div>
+    </section>
+
+    <section class="panel lesson-panel">
+      <div class="section-head">
+        <h2>课例</h2>
+        <button class="btn primary" id="save-btn" type="button">保存当前课例</button>
+      </div>
+      <label class="wide">判断
+        <textarea id="judgement" rows="3" placeholder="写下你的判断与依据，系统不会替你下结论。"></textarea>
+      </label>
+      <label class="wide">备注
+        <textarea id="notes" rows="2" placeholder="可选"></textarea>
+      </label>
+      <div class="lesson-tools">
+        <input id="lesson-q" type="text" placeholder="检索判断、备注、时间">
+        <select id="lesson-category" aria-label="按占类筛选">
+          <option value="">全部占类</option>
+        </select>
+        <input id="lesson-from" type="date" aria-label="起始日期">
+        <span class="hint">至</span>
+        <input id="lesson-to" type="date" aria-label="结束日期">
+        <button class="btn" id="lesson-search" type="button">检索</button>
+        <button class="btn" id="lesson-reset" type="button">清空</button>
+      </div>
+      <div id="lessons" class="lesson-list"></div>
+    </section>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
